@@ -1,0 +1,29 @@
+/* 
+List of colors used 
+background color of the element : cyan
+*/
+
+.color-box {
+    height: 400px;
+    width: 250px;
+    background: cyan;
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    background-color: black;
+    opacity: 0;
+}
+
+h3 {
+    color: white;
+    padding-top: 100px;
+}
+
+.overlay:hover {
+    opacity: 0.5;
+}
